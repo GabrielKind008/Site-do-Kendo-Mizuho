@@ -62,5 +62,42 @@
 #objetivo {
     font-family: "Open Sans", sans-serif; /* Define a fonte */
     color: #333; /* Cor do texto (um cinza escuro fica profissional) */
-  }
-  
+}
+
+p {
+    margin-left: 40px;  /* Afasta da esquerda */
+    margin-right: 40px; /* Afasta da direita */
+    line-height: 1.6;   /* Dica extra: melhora a leitura aumentando o espaço entre linhas */
+    font-family: "Open Sans", sans-serif; /* Define a fonte */
+    color: #333; /* Cor do texto (um cinza escuro fica profissional) */
+}
+
+.mestre{
+    margin-left: 400px;  /* Afasta da esquerda */
+    margin-right: 100px; /* Afasta da direita */
+    line-height: 1.6;   /* Dica extra: melhora a leitura aumentando o espaço entre linhas */
+
+
+}
+
+.fotomestre{
+    position: absolute;
+    top: 1065px;   /* Distância do topo */
+    left: 60px;  /* Distância da esquerda */
+    width: 266px;  /* Define a largura */
+    height: auto;  /* Mantém a proporção correta para não amassar */
+    border: 5px solid black;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif; /* Define a fonte */
+    color: #333; /* Cor do texto (um cinza escuro fica profissional) */
+}
+
+footer {
+    background: var(--preto);
+    color:  #1e1b19;;
+    text-align: center;
+    padding: 20px;
+}
+

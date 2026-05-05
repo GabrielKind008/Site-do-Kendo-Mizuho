@@ -1,0 +1,49 @@
+* {/*gruda a barra nos cantos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    width: 100%;
+
+}
+
+.navbar{ 
+    background-color: #1e1b19; /*cria a barra no inicio*/
+    height: 60px;
+    width: 100%;
+
+
+}
+
+.logo {
+    position: absolute;
+    top: 100;    /* Alinha no topo */
+    left: 1;  /* Alinha na direita */
+    width: 60px;/* Define uma largura fixa  */
+    height: 60px;/* Define uma altura fixa  */
+}
+
+
+.botoes a {   /* Ele vai usar especificamente a tag <a> */
+    /* Transforma o link em um bloco para aceitar padding e margens */
+    display: inline-block; 
+    /* Estilo visual */
+    background-color: #004a99; /* Cor do botao */
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    border-radius: 4px;
+    font-family: "Staatliches", sans-serif;
+
+    
+}
+
+.mapa{
+    position: absolute;
+    top: 90px;
+    left: 260px;
+
+}

@@ -48,7 +48,7 @@
     /* Transforma o link em um bloco para aceitar padding e margens */
     display: inline-block; 
     /* Estilo visual */
-    background-color: #004a99; /* Cor de exemplo (Mizuho costuma usar azul) */
+    background-color: #004a99; /* Cor do botao */
     color: white;
     padding: 10px 20px;
     margin: 5px;
@@ -75,7 +75,7 @@ p {
 .mestre{
     margin-left: 400px;  /* Afasta da esquerda */
     margin-right: 100px; /* Afasta da direita */
-    line-height: 1.6;   /* Dica extra: melhora a leitura aumentando o espaço entre linhas */
+    line-height: 1.6;   /* aumentando o espaço entre linhas */
 
 
 }
@@ -85,13 +85,13 @@ p {
     top: 1065px;   /* Distância do topo */
     left: 60px;  /* Distância da esquerda */
     width: 266px;  /* Define a largura */
-    height: auto;  /* Mantém a proporção correta para não amassar */
+    height: auto;  /* Mantém a proporção correta para nao amassar */
     border: 5px solid black;
 }
 
 h2{
     font-family: "Open Sans", sans-serif; /* Define a fonte */
-    color: #333; /* Cor do texto (um cinza escuro fica profissional) */
+    color: #333; /* Cor do texto */
 }
 
 footer {

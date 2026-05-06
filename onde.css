@@ -6,6 +6,7 @@
 
 .body{
     width: 100%;
+    
 
 }
 
@@ -46,4 +47,13 @@
     top: 90px;
     left: 260px;
 
+}
+
+.contato{
+    position: absolute;
+    top: 700px;
+    left: 260px;
+    line-height: 1.6;   /* Dica extra: melhora a leitura aumentando o espaço entre linhas */
+    font-family: "Open Sans", sans-serif; /* Define a fonte */
+    color: #333; /* Cor do texto (um cinza escuro fica profissional) */
 }
